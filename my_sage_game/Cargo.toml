@@ -1,0 +1,8 @@
+[package]
+name = "my_sage_game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ajuna-primitives = { git = "https://github.com/ajuna-network/ajuna-pallets.git", tag = "v0.15.0", default-features = false }
+sage-api = { git = "https://github.com/ajuna-network/ajuna-pallets.git", tag = "v0.15.0", default-features = false }
